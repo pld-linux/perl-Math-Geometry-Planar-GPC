@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Geometry-Planar-GPC
 Summary:	Math::Geometry::Planar::GPC - Perl wrapper for Alan Murta's gpc library
-Summary(pl):	Math::Geometry::Planar::GPC - perlowy interfejs do biblioteki gpc Alana Murty
+Summary(pl):	Math::Geometry::Planar::GPC - interfejs perlowy do biblioteki gpc Alana Murty
 Name:		perl-Math-Geometry-Planar-GPC
 Version:	1.04
 Release:	1
