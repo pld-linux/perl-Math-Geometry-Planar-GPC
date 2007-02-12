@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Geometry-Planar-GPC
 Summary:	Math::Geometry::Planar::GPC - Perl wrapper for Alan Murta's gpc library
-Summary(pl):	Math::Geometry::Planar::GPC - interfejs perlowy do biblioteki gpc Alana Murty
+Summary(pl.UTF-8):   Math::Geometry::Planar::GPC - interfejs perlowy do biblioteki gpc Alana Murty
 Name:		perl-Math-Geometry-Planar-GPC
 Version:	1.04
 Release:	1
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module is just a wrapper around the gpc (Generic Polygon
 Clipping) C library written by Alan Murta.
 
-%description -l pl
-Ten modu³ jest interfejsem do biblioteki C gpc (Generic Polygon
-Clipping - ogólnego obcinania wielok±tów).
+%description -l pl.UTF-8
+Ten moduÅ‚ jest interfejsem do biblioteki C gpc (Generic Polygon
+Clipping - ogÃ³lnego obcinania wielokÄ…tÃ³w).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
