@@ -13,8 +13,9 @@ Release:	2
 # perl interface is under "Artistic" license, but gpc itself is non-commercial
 License:	non-commercial use, freely distributable
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Math/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0f059f596abba73eee7f0ffcee134567
+URL:		http://search.cpan.org/dist/Math-Geometry-Planar-GPC/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Obsoletes:	perl-Math-Geometry-GPC
@@ -26,7 +27,7 @@ Clipping) C library written by Alan Murta.
 
 %description -l pl.UTF-8
 Ten moduł jest interfejsem do biblioteki C gpc (Generic Polygon
-Clipping - ogólnego obcinania wielokątów).
+Clipping - ogólnego obcinania wielokątów) autorstwa Alana Murty.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
