@@ -59,6 +59,5 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/auto/Math/Geometry
 %dir %{perl_vendorarch}/auto/Math/Geometry/Planar
 %dir %{perl_vendorarch}/auto/Math/Geometry/Planar/GPC
-%{perl_vendorarch}/auto/Math/Geometry/Planar/GPC/GPC.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Math/Geometry/Planar/GPC/GPC.so
 %{_mandir}/man3/*
