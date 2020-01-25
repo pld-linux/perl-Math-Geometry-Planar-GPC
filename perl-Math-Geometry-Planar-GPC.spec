@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Math
 %define		pnam	Geometry-Planar-GPC
 Summary:	Math::Geometry::Planar::GPC - Perl wrapper for Alan Murta's gpc library
