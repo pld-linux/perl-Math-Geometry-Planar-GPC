@@ -8,7 +8,7 @@ Summary:	Math::Geometry::Planar::GPC - Perl wrapper for Alan Murta's gpc library
 Summary(pl.UTF-8):	Math::Geometry::Planar::GPC - interfejs perlowy do biblioteki gpc Alana Murty
 Name:		perl-Math-Geometry-Planar-GPC
 Version:	1.04
-Release:	17
+Release:	18
 # perl interface is under "Artistic" license, but gpc itself is non-commercial
 License:	non-commercial use, freely distributable
 Group:		Development/Languages/Perl
